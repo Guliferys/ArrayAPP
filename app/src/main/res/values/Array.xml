@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="gradeArray">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+    </integer-array>
+
+    <string-array name="nameArray">
+        <item>Egor</item>
+        <item>Denis</item>
+        <item>Maxim</item>
+        <item>Costel</item>
+        <item>Marian</item>
+        <item>Ionel</item>
+    </string-array>
+
+</resources>
