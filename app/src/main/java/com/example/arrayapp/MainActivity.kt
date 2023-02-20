@@ -25,15 +25,15 @@ class MainActivity : AppCompatActivity() {
 
         for ((index, item) in gradeArray.withIndex()) {
             when (item){
-            in bad -> badArray.add("Плохие оценки: Ученик: ${nameArray[index]} – ${gradeArray[index]}")
-            in normal -> normalArray.add("Нормальные оценки: Ученик: ${nameArray[index]} – ${gradeArray[index]}")
-            in nice -> niceArray.add("Хорошие оценки: Ученик: ${nameArray[index]} – ${gradeArray[index]}")
-            in excellent -> excellentArray.add("Отличные оценки: Ученик: ${nameArray[index]} – ${gradeArray[index]}")
+            in bad -> badArray.add("Bad grade: Student: ${nameArray[index]} – ${gradeArray[index]}")
+            in normal -> normalArray.add("Normal grade: Student: ${nameArray[index]} – ${gradeArray[index]}")
+            in nice -> niceArray.add("Nice grade: Student: ${nameArray[index]} – ${gradeArray[index]}")
+            in excellent -> excellentArray.add("Excellent grade: Student: ${nameArray[index]} – ${gradeArray[index]}")
             }
         }
-        badArray.forEach{Log.e("BAD", "$it")}
-        normalArray.forEach{Log.e("BAD", "$it")}
-        niceArray.forEach{Log.e("BAD", "$it")}
-        excellentArray.forEach{Log.e("BAD", "$it")}
+        badArray.forEach{Log.e("myLog", "$it")}
+        normalArray.forEach{Log.e("myLog", "$it")}
+        niceArray.forEach{Log.e("myLog", "$it")}
+        excellentArray.forEach{Log.e("myLog", "$it")}
     }
 }
